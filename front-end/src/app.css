@@ -1,0 +1,12 @@
+main {
+  min-height: 80vh;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: 600;
+}

@@ -1,0 +1,76 @@
+1. server
+2. config
+3. validation
+4. routes
+5. controller
+6. services
+7. model
+
+# Package 
++ dependencies:
+  express
+  mongoose
+  cookie-parser
+  cors 
+  dotenv
+  express-mongo-sanitize
+  express-rate-limit
+  helmet
+  hpp
+  http-errors
+  jsonwebtoken
+  xss-clean
+  yup
+  bcryptjs
+  @babel/runtime
+
++ devDependencies:
+  morgan 
+  eslint 
+  eslint-config-airbnb-base 
+  eslint-config-prettier 
+  eslint-plugin-import 
+  eslint-plugin-prettier 
+  husky 
+  lint-staged 
+  nodemon 
+  prettier 
+  winston 
+  @babel/cli
+  @babel/core
+  @babel/node
+  @babel/plugin-transform-runtime
+  @babel/preset-env
+
+# Start
+* 1. Init        ===> done
+      # set up eslint
+      + eslint 
+      + eslint-config-airbnb-base 
+      + eslint-config-prettier 
+      + eslint-plugin-import 
+      + eslint-plugin-prettier 
+      + husky 
+      + lint-staged 
+      
+      # config babel
+      + @babel/cli
+      + @babel/core
+      + @babel/node
+      + @babel/plugin-transform-runtime
+      + @babel/preset-env
+      + @babel/runtime
+* 2. Server       ===> done
+* 3. Config       ===> pending...
+      + config.js     ===> pending...
+      + db.js         ===> pending...
+      + logger.js     ===> done
+      + rateLimit.js  ===> done
+      + passport.js   ===> pending...
+      + roles.js      ===> pending...
+* 4. Middlewares
+      + error.js      ===> done
+* 5. Routes
+      + _index.js
+* 6. Validations
+      + 
